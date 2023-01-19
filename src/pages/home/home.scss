@@ -1,0 +1,12 @@
+.home {
+  width: 100vw;
+  min-height: calc(100vh - 80px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeeec4;
+
+  .home-wrapper {
+    width: 80%;
+  }
+}
