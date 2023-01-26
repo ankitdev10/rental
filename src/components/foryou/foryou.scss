@@ -1,4 +1,7 @@
 .foryou {
+  width: 80%;
+  margin: auto;
+
   .foryou-title {
     font-family: "Poppins", sans-serif;
     font-size: 1.3rem;
@@ -48,10 +51,9 @@
 
         .details-bottom {
           display: flex;
-          justify-content: space-between;
           align-items: center;
           font-size: 14px;
-
+          justify-content: space-around;
           .location {
             color: gray;
             font-weight: 400;

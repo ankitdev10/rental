@@ -1,5 +1,6 @@
 import React from "react";
 import AnimateProp from "../../components/animate/AnimateProp";
+import Footer from "../../components/footer/Footer";
 import ForYouProps from "../../components/foryou/ForYouProps";
 import "./home.scss";
 
@@ -13,6 +14,7 @@ const Home = () => {
         <div className="for-you-properties">
           <ForYouProps />
         </div>
+        <Footer />
       </div>
     </div>
   );
