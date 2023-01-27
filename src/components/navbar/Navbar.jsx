@@ -29,11 +29,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-        <Link className="link" to="/login/r">
-          <button className="navbar-btn login">Login as renter</button>
+        <Link className="link" to="/login">
+          <button className="navbar-btn login">Login</button>
         </Link>
-        <Link className="link" to="/login/o">
-          <button className="navbar-btn owner">Login as owner</button>{" "}
+        <Link className="link" to="register">
+          <button className="navbar-btn register">Register</button>{" "}
         </Link>
       </div>
     </div>
